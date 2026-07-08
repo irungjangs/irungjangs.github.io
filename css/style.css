@@ -256,7 +256,7 @@ main > section.project-grid {
   color: #d8dde8;
   font-size: clamp(20px, 3vw, 34px);
   font-weight: 700;
-  line-height: 1.28;
+  line-height: 1.5;
 }
 
 .about-content {
