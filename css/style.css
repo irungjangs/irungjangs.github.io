@@ -572,8 +572,8 @@ main > section.project-grid {
 
 @media (max-width: 640px) {
   .docked-toolbar {
-    left: 64px;
-    right: 64px;
+    left: 32px;
+    right: 32px;
     bottom: 16px;
     transform: none;
     width: auto;
