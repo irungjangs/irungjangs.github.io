@@ -74,7 +74,7 @@ button {
   align-items: center;
   justify-content: space-between;
   height: var(--header-h);
-  padding: 0 clamp(18px, 3vw, 40px);
+  padding: 0 clamp(18px, 6vw, 40px);
   border-bottom: 1px solid var(--line);
   background: rgba(9, 10, 15, 0.72);
   backdrop-filter: blur(18px);
@@ -169,7 +169,7 @@ main > section.project-grid {
   flex-direction: column;
   justify-content: flex-end;
   gap: 10px;
-  padding: clamp(24px, 5vw, 48px);
+  padding: clamp(24px, 6vw, 48px);
   background: rgba(4, 6, 12, 0.86);
   opacity: 0;
   pointer-events: none;
@@ -228,7 +228,7 @@ main > section.project-grid {
     var(--bg);
 }
 .welcome-page {
-  padding: calc(var(--header-h) + clamp(40px, 7vw, 86px)) clamp(20px, 5vw, 80px) clamp(42px, 7vw, 78px);
+  padding: calc(var(--header-h) + clamp(40px, 7vw, 86px)) clamp(20px, 6vw, 80px) clamp(42px, 7vw, 78px);
   background:
     radial-gradient(circle at 12% 14%, rgba(40, 215, 255, 0.14), transparent 28%),
     radial-gradient(circle at 88% 10%, rgba(255, 79, 163, 0.12), transparent 26%),
@@ -389,7 +389,7 @@ main > section.project-grid {
 }
 
 .detail-intro h1 {
-  margin-top: 10px;
+  margin-top: 13px;
   font-size: clamp(48px, 12vw, 160px);
   line-height: 0.88;
   font-weight: 950;
@@ -696,7 +696,7 @@ main > section.project-grid {
 }
 
 .site-footer {
-  padding: clamp(28px, 5vw, 56px) clamp(20px, 5vw, 80px);
+  padding: clamp(28px, 5vw, 56px) clamp(20px, 6vw, 80px);
   border-top: 1px solid var(--line);
   background:
     radial-gradient(circle at 88% 0%, rgba(40, 215, 255, 0.08), transparent 30%),
