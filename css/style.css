@@ -550,7 +550,6 @@ main > section.project-grid {
   max-width: 90vw;
   max-height: 90vh;
   object-fit: contain;
-  border-radius: 8px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
   cursor: grab;
   /* Make sure dragging doesn't select the image */
