@@ -221,7 +221,7 @@ main > section.project-grid {
 
 .about-page {
   min-height: 100vh;
-  padding: calc(var(--header-h) + clamp(40px, 7vw, 86px)) clamp(20px, 5vw, 80px) clamp(42px, 7vw, 78px);
+  padding: calc(var(--header-h) + clamp(40px, 7vw, 86px)) clamp(20px, 6vw, 80px) clamp(42px, 7vw, 78px);
   background:
     radial-gradient(circle at 12% 14%, rgba(40, 215, 255, 0.14), transparent 28%),
     radial-gradient(circle at 88% 10%, rgba(255, 79, 163, 0.12), transparent 26%),
