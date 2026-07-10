@@ -382,7 +382,7 @@ main > section.project-grid {
 }
 
 .detail-intro {
-  padding: clamp(46px, 8vw, 96px) clamp(20px, 6vw, 88px);
+  padding: clamp(40px, 8vw, 96px) clamp(20px, 6vw, 80px);
   background:
     linear-gradient(120deg, rgba(40, 215, 255, 0.14), transparent 42%, rgba(255, 79, 163, 0.14)),
     #080a10;
