@@ -561,8 +561,8 @@ main > section.project-grid {
   /* Make sure dragging doesn't select the image */
   user-select: none;
   -webkit-user-drag: none;
-  /* Will-change for smoother performance */
-  will-change: transform;
+  /* Prevent mobile browser native swipe/scroll handling so JS dragging works */
+  touch-action: none;
 }
 
 .lightbox-img:active {
@@ -589,8 +589,6 @@ main > section.project-grid {
     0 8px 32px rgba(0, 0, 0, 0.5),
     0 0 0 1px rgba(255, 255, 255, 0.04) inset;
   width: max-content;
-  pointer-events: auto;
-  will-change: opacity, transform;
   z-index: 2; /* Keep above zoomed image */
 }
 
