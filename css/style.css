@@ -453,6 +453,22 @@ main > section.project-grid {
   background: rgba(40, 215, 255, 0.13);
 }
 
+.link-text {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: rgba(255, 255, 255, 0.4);
+  transition: text-decoration-color 0.2s, color 0.2s;
+}
+
+.link-text:hover {
+  color: var(--cyan);
+  text-decoration-color: var(--cyan);
+}
+
 .is-disabled {
   opacity: 0.3;
   pointer-events: none;
